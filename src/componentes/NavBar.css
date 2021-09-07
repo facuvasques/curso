@@ -1,0 +1,57 @@
+.asd {
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.titulo{
+    color: #ffc600;
+    font-size: 30px;
+    margin: 10px;
+    padding: 0;
+}
+
+.btn {
+    padding: 10px;
+    margin: 25px;
+    background-color: #ffc600;
+    color: black;
+    
+
+}
+
+.btn:hover {
+    filter: blur(0.5px);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgb(0, 0, 0, .4);
+    
+}
+
+@media screen and (max-width: 720px){
+
+ .btn {
+     margin: 10px;
+
+ }
+    
+}
+
+.divC {
+    padding-left: 90% !important;
+    padding-top: 20px !important;
+    height: 20px;
+    width: 20px;
+}
+
+
+.carrito {
+    height: 30px;
+    width: 30px;
+    
+    
+    
+}
+    
