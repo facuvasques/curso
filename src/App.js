@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './componentes/NavBar';
 import Button from './componentes/Button';
 import Container from './Container/Container.js';
+import ItemListContainer from './componentes/ItemListContainer';
 
 const App = () => {
  
@@ -17,6 +18,7 @@ const App = () => {
   return (
     <div className="App">
       <NavBar />
+      <ItemListContainer greeting= "Bienvenidos a nuestra tienda! ">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -37,6 +39,7 @@ const App = () => {
           Learn React
         </a>
       </header>
+      </ItemListContainer>
     </div>
   );
 
