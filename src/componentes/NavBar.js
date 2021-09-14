@@ -1,7 +1,18 @@
+import { useEffect } from 'react'
 import CartWidget from '../Container/CartWidget'
 import './NavBar.css'
 
-const NavBar  = () => {
+const NavBar  = (props) => {
+  
+  useEffect(() => {
+    console.log('asd')
+    return () => {
+      console.log('asd1')
+    }
+  }, [])
+
+  console.log('asd2')
+
     return ( 
      
       <nav class="navbar navbar-light bg-light asd">
