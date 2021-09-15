@@ -54,4 +54,17 @@
     
     
 }
+
+.img {
+    width: 500px;
+    height: 450px;
+    margin: 40px;
+    padding-inline-end: 100% !important;
     
+}
+    
+.divCard {
+    width: 40%;
+    height: 40%;
+
+}
